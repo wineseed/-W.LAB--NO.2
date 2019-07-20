@@ -43,3 +43,7 @@ async def on_message(message):
         msg5 = None
         await message.channel.send("갚이 삭제되었습니다") 
    
+
+access_token = os.inviron["BOT_TOKEN"]
+d.run(access_token)
+
