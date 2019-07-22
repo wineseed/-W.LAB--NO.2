@@ -1,1 +1,1 @@
-discoard.py==1.1.1
+discoard.py==1.2.2
