@@ -1,1 +1,1 @@
-worker: python{W.LAB}-NO.2.py
+worker: python {W.LAB}-NO.2.py
