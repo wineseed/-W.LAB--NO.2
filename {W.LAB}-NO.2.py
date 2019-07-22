@@ -1,6 +1,5 @@
 import discord
 import random
-import openpyxl
 import os
 d = discord.Client()
 async def on_ready():
