@@ -22,7 +22,7 @@ async def on_message(message):
 
         msg2 = message.content[4:]
 
-        await message.channel.send("https://search.naver.com/search.naver?sm=top_hty&fbm=0&ie=utf8&query=" + msg2)
+        await message.channel.send("입벌려 검색결과 들어간다=>" + "https://search.naver.com/search.naver?sm=top_hty&fbm=0&ie=utf8&query=" + msg2)
 
     if message.content.startswith("/제작자"):
 
@@ -41,7 +41,7 @@ async def on_message(message):
     if message.content.startswith("!삭제 NO.2"):
         msg5 = None
         await message.channel.send("갚이 삭제되었습니다") 
-   
+    
 
 access_token = os.inviron["BOT_TOKEN"]
 d.run(access_token)
