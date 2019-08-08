@@ -28,7 +28,7 @@ async def on_message(message):
 
         await message.channel.send("와인씌인가.....아무튼 스트리머임")
 
-     if message.content.startswith("!저장 NO.2"):
+    if message.content.startswith("!저장 NO.2"):
         global msg5
         global msg6
         msg5 = message.content[9:]
