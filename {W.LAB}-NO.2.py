@@ -53,5 +53,5 @@ async def 등업(ctx):
 @app.command()
 async def DM(ctx):
     await ctx.send('죄송합니다. 아직 연구중이니 조금만 기다려 주세요')
-
-app.run('BOT_TOKEN')
+access_token = os.environ["BOT_TOKEN"]    
+app.run('access_token')
